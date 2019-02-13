@@ -71,6 +71,20 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 5520981,
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "sdfdsf",
+      "description": "sdfsdf",
+      "location": "sdfdf",
+      "date": "2019-02-05T13:56:00.000Z",
+      "time": "17:00",
+      "attendees": []
     }
   ]
 }
