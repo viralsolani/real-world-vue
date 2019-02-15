@@ -3,12 +3,18 @@
     <h1>Events Listing</h1>
     <EventCard v-for="event in events" :key="event.id" :event="event"/>
     <template v-if="page != 1">
-      <router-link :to="{ name: 'event-list', query: { page: page - 1 } }" rel="prev">
-      Prev Page</router-link>
+      <router-link
+        :to="{ name: 'event-list', query: { page: page - 1 } }"
+        rel="prev">
+        Prev Page
+      </router-link>
       <template v-if="hasNextPage"> | </template>
     </template>
-    <router-link v-if="hasNextPage" :to="{ name: 'event-list', query: { page: page + 1 } }" rel="next">
-      Next Page</router-link>
+    <router-link 
+      v-if="hasNextPage" :to="{ name: 'event-list', query: { page: page + 1 } }" 
+      rel="next">
+      Next Page
+    </router-link>
   </div>
 </template>
 
