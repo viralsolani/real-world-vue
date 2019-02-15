@@ -231,6 +231,20 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 570969,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "ds;fksdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
